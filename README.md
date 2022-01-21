@@ -73,4 +73,4 @@ npm i
 
 npm run dev
 ```
-Open http://localhost:9999/vaidate in a browser (gives you a HTTP 401 - Unauthorized)
+Open http://localhost:9999/validate in a browser (gives you a HTTP 401 - Unauthorized)
