@@ -1,0 +1,33 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "Service to authenticate by JWT ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "EXPOSE_VALIDATE=true nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JWT",
+    "authentication",
+    "token"
+  ],
+  "author": "C. Mayer (meggsimum)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prompt-sync": "^4.2.0"
+  },
+  "engines": {
+    "node" : ">=16.0.0"
+  }
+}
